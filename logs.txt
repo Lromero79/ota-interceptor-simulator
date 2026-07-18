@@ -1,0 +1,90 @@
+cat logs.txt
+
+curl --max-time 5 http://127.0.0
+
+
+==================================================
+[+] INTERCEPTED REQUEST | 2026-07-18 10:16:12
+    From Client: ('127.0.0.1', 59436)
+    Requested URL Path: /
+    Headers received:
+Host: 127.0.0.0:8080
+User-Agent: curl/8.20.0
+Accept: */*
+
+==================================================
+
+
+==================================================
+[+] INTERCEPTED REQUEST | 2026-07-18 10:20:14
+    From Client: 127.0.0.1:8080
+    Requested URL Path: /
+    Headers received:
+Host: 127.0.0.0:8080
+User-Agent: curl/8.20.0
+Accept: */*
+
+==================================================
+
+
+==================================================
+[+] INTERCEPTED REQUEST | 2026-07-18 10:26:20
+    From Client: 127.0.0.1:8080
+    Requested URL Path: /
+    Headers received:
+Host: 127.0.0.0:8080
+User-Agent: curl/8.20.0
+Accept: */*
+
+==================================================
+
+
+==================================================
+[+] INTERCEPTED REQUEST | 2026-07-18 10:28:43
+    From Client: 127.0.0.1:8080
+    Requested URL Path: /
+    Headers received:
+Host: 127.0.0.0:8080
+User-Agent: curl/8.20.0
+Accept: */*
+
+==================================================
+
+
+==================================================
+[+] INTERCEPTED REQUEST | 2026-07-18 10:31:11
+    From Client: 127.0.0.1:8080
+    Requested URL Path: /
+    Headers received:
+Host: 127.0.0.0:8080
+User-Agent: curl/8.20.0
+Accept: */*
+
+==================================================
+
+
+==================================================
+[+] INTERCEPTED REQUEST | 2026-07-18 10:32:36
+    From Client: 127.0.0.1:8080
+    Requested URL Path: /firmware.bin
+    Headers received:
+Host: 127.0.0.0:8080
+User-Agent: curl/8.20.0
+Accept: */*
+
+    [!] Target looks like a firmware request! Serving test file...
+==================================================
+
+
+==================================================
+[+] INTERCEPTED REQUEST | 2026-07-18 10:35:02
+    From Client: 127.0.0.1:8080
+    Requested URL Path: /firmware.bin
+    Headers received:
+Host: 127.0.0.1:8080
+User-Agent: curl/8.20.0
+Accept: */*
+
+    [!] Target looks like a firmware request! Serving test file...
+==================================================
+
